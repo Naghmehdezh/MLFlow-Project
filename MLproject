@@ -1,9 +1,0 @@
-name: MLProject
-
-conda_env: conda.yaml
-
-entry_points:
-  main:
-    parameters:
-      yearly_seasonality: {type: bool, default: False}
-    command: "python train.py {yearly_seasonality} "
