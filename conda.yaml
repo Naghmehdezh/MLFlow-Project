@@ -1,0 +1,11 @@
+name: MLProject
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.7.5
+- scikit-learn=0.22.1
+- pip
+- pip:
+  - mlflow
+  - cloudpickle==1.6.0
